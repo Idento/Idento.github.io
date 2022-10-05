@@ -1,9 +1,126 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
 .gen{
     display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    padding: 0%;
+    background-color:floralwhite;
 }
 nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: #2B2D42;
+    border-right: 1px solid;
+}
+nav ul {
+    width: 70%;
+    height: 50%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav ul::after {
+    content: '';
+    display: block;
+    height: 2px;
+    border-top: 2px solid;
+    border-color: slategrey;
+}
+nav ul li {
+    margin: 0%;
+    height: 15%;
+    text-align: center;
+    border-top: 2px solid;
+    border-color: slategrey;
+    display: flex;
+}
+nav ul li a {
+    display: block;
     margin: auto;
 }
-.gen div {
+.menucontent {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.menucontent:hover{
+    color: #99abcb;
+}
+.footnav {
+    font-size: small;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 4%;
+}
+.page{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 5%;
+    box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
+}
+.back{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    background: url("forest.png")no-repeat;
+    background-size: cover;
+    color: white;
+}
+.b{
+    margin-top: 8%;
+}
+.menucontent{
     margin: auto;
+}
+.text{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: larger;
+}
+.page h1 {
+    font-size: xx-large;
+}
+.Ouverture{
+    margin-top: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+figcaption{
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+}
+.one{
+    float: left;
+}
+.onedescription{
+    margin-right: 10%;
+}
+.b1 h1 {
+    margin-left: 0%;
+}
+#download {
+    float: middle;
+    vertical-align:text-bottom;
 }
