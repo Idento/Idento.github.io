@@ -76,7 +76,7 @@ nav ul li a {
     overflow: auto;
     width: 75%;
     min-height: 100vh;
-    margin-left: 30%;
+    margin-left: 25%;
     box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
     -webkit-box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
     -moz-box-shadow: 4px -5px 11px 1px rgba(0,0,0,0.71);
@@ -148,6 +148,11 @@ figcaption{
     -webkit-box-shadow: 0px -4px 5px -5px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -4px 5px -5px rgba(0,0,0,0.75);
     text-decoration:underline;
+    transition: 0.5s;
+}
+.b1 input:active{
+    transition: 0.5s;
+    background-color: #0dd66c;
 }
 #ouverture {
     margin-top: 2%;
@@ -184,4 +189,8 @@ figcaption{
     align-self: center;
     border-radius: 10px;
     margin-bottom: 5%;
+}
+#detail p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
