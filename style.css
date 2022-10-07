@@ -197,6 +197,7 @@ figcaption{
     align-self: center;
     border-radius: 10px;
     margin-bottom: 5%;
+    padding-bottom: 2%;
 }
 #detail p{
     text-align: left;
