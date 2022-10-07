@@ -170,11 +170,18 @@ figcaption{
     width: 90%;
     align-self: center;
     border-radius: 10px;
-    margin-bottom: 5%;
 }
 #recherche figure{
     float: left;
 }
 #recherche .fl{
     clear: both;
+}
+#detail {
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
 }
