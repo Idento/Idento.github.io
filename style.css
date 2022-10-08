@@ -167,6 +167,7 @@ figcaption{
 }
 #ouverture figure{
     float: left;
+    width: 50%;
 }
 #ouverture p{
     text-align: left;
@@ -203,4 +204,10 @@ figcaption{
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
+}
+#presentation {
+    width: 70%;
+}
+#ouverture_logiciel{
+    width: 90%;
 }
