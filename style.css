@@ -126,13 +126,10 @@ figcaption{
 }
 .b1 a{
     margin-top: 3%;
-    background-color: #2B2D42;
-    width: 10%;
     align-self: center;
-    padding: 0%;
-}
-.b1 a{
     border-radius: 10px;
+    width: 30%;
+    margin-bottom: 3%;
 }
 .b1 input{
     border-radius: 10px;
