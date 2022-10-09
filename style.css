@@ -46,6 +46,8 @@ nav ul li {
     border-top: 2px solid;
     border-color: slategrey;
     display: flex;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 nav ul li a {
     display: block;
@@ -115,6 +117,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0%;
 }
 #download {
     float: middle;
@@ -202,9 +205,149 @@ figcaption{
     margin-left: 5%;
     margin-right: 5%;
 }
-#presentation {
-    width: 70%;
-}
 #ouverture_logiciel{
     width: 90%;
+}
+#menu_lowmedia{
+    display: none;
+}
+
+@media screen and (max-width:1800px){
+    #ouverture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ouverture figure{
+        width: 90%;
+    }
+    #ouverture figure img{
+        width: 80%;
+    }
+    #ouverture p{
+        align-self: flex-start;
+        margin-left: 3%;
+    }
+    #recherche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #recherche figure{
+        width: 90%;
+    }
+    #recherche figure img{
+        width: 80%;
+    }
+    #recherche p {
+        align-self: flex-start;
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width:600px){
+    .gen{
+        flex-direction: column;
+    }
+    .page {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .b1{
+        margin-top: 5%;
+    }
+    .b {
+        margin-top: 5%;
+    }
+    .b2{
+        margin-top: 5%;
+    }
+    nav{
+        display: none;
+    }
+    #download{
+        width: 15%;
+    }
+    #presentation{
+        width: 90%;
+    }
+    .b1 a{
+        width: auto;
+    }
+    #menu_lowmedia{
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        width: 100%;
+        background-color: #2B2D42;
+        position: absolute;
+        margin-bottom: 5%;
+    }
+    #menubar{
+        margin-left: 1%;
+        margin-top: 1%;
+        width: 5%;
+        height: 100%;
+        z-index: 1;
+    }
+    #logo_menubar{
+        margin-left: 40%;
+        height: 100%;
+    }
+    .menulow{
+        list-style: none;
+        align-self: flex-start;
+        position: absolute;
+        display: none;
+        margin-top: 5%;
+        padding: 2%;
+        padding-right: 5%;
+        padding-top: 3%;
+        background-color: #2B2D42;
+        text-align: left;
+        transition: 0.5s;
+        border-radius: 0px 0px 3px 0px;
+    }
+    .menulow::after {
+        content: '';
+        display: block;
+        height: 2px;
+        border-top: 2px solid;
+        border-color: slategrey;
+    }
+    .menulow li{
+        margin: 0%;
+        height: 15%;
+        margin-top: 10px;
+        text-align: center;
+        border-top: 2px solid;
+        border-color: slategrey;
+        display: flex;
+        justify-content: center;
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .menulow li a{
+        font-size: large;
+        padding-top: 5%;
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin: auto;
+    }
+    .menulow li a:hover{
+        color: slategrey;
+    }
+    .menulow:hover{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #menubar:hover{
+        cursor: pointer;
+    }
+    .page #menu_lowmedia #menubar:hover ~ ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
