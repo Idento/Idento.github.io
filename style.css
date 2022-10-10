@@ -154,10 +154,6 @@ figcaption{
     text-decoration:underline;
     transition: 0.5s;
 }
-.b1 input:active{
-    transition: 0.5s;
-    background-color: #0dd66c;
-}
 #ouverture {
     margin-top: 2%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -356,5 +352,14 @@ figcaption{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    #recherche p {
+        font-size: medium;
+    }
+    #ouverture p{
+        font-size: medium;
+    }
+    #detail p {
+        font-size: medium;
     }
 }
