@@ -102,6 +102,9 @@ nav ul li a {
 .page h1 {
     font-size: xx-large;
 }
+.page p{
+    font-size: medium;
+}
 figcaption{
     font-style: italic;
     font-weight: normal;
@@ -367,8 +370,5 @@ figcaption{
     #detail p{
         align-self: flex-start;
         margin-left: 3%;
-    }
-    .page p{
-        font-size: medium;
     }
 }
