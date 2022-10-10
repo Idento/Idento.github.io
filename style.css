@@ -354,12 +354,12 @@ figcaption{
         justify-content: flex-start;
     }
     #recherche p {
-        font-size: medium;
+        font-size: 1rem;
     }
     #ouverture p{
-        font-size: medium;
+        font-size: 1rem;
     }
     #detail p {
-        font-size: medium;
+        font-size: 1rem;
     }
 }
