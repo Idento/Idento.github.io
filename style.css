@@ -247,6 +247,7 @@ figcaption{
 @media (max-device-width:600px){
     .gen{
         flex-direction: column;
+        height: 100vh;
     }
     .page {
         width: 100%;
