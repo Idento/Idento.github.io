@@ -298,6 +298,7 @@ figcaption{
     #logo_menubar{
         margin-left: 35%;
         height: 100%;
+        z-index: 1;
     }
     .menulow{
         list-style: none;
