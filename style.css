@@ -356,22 +356,16 @@ figcaption{
         flex-direction: column;
         justify-content: flex-start;
     }
-    #recherche {
-        font-size: 1em;
-    }
     #recherche p {
-        font-size: 1em;
-    }
-    #ouverture {
-        font-size: 1em;
+        align-self: flex-start;
+        margin-left: 3%;
     }
     #ouverture p{
-        font-size: 1em;
+        align-self: flex-start;
+        margin-left: 3%;
     }
-    #detail {
-        font-size: 1em;
-    }
-    #detail p {
-        font-size: 1em;
+    #detail p{
+        align-self: flex-start;
+        margin-left: 3%;
     }
 }
