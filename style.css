@@ -313,6 +313,7 @@ figcaption{
         text-align: left;
         transition: 0.5s;
         border-radius: 0px 0px 3px 0px;
+        z-index: 0;
     }
     .menulow::after {
         content: '';
