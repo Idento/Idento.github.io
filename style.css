@@ -356,10 +356,19 @@ figcaption{
         flex-direction: column;
         justify-content: flex-start;
     }
+    #recherche {
+        font-size: 1em;
+    }
     #recherche p {
         font-size: 1em;
     }
+    #ouverture {
+        font-size: 1em;
+    }
     #ouverture p{
+        font-size: 1em;
+    }
+    #detail {
         font-size: 1em;
     }
     #detail p {
