@@ -365,4 +365,34 @@ figcaption{
     #detail p {
         font-size: 1rem;
     }
+    #ouverture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #ouverture figure{
+        width: 90%;
+    }
+    #ouverture figure img{
+        width: 80%;
+    }
+    #ouverture p{
+        align-self: flex-start;
+        margin-left: 3%;
+    }
+    #recherche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #recherche figure{
+        width: 90%;
+    }
+    #recherche figure img{
+        width: 80%;
+    }
+    #recherche p {
+        align-self: flex-start;
+        margin-left: 3%;
+    }
 }
