@@ -368,4 +368,7 @@ figcaption{
         align-self: flex-start;
         margin-left: 3%;
     }
+    .page p{
+        font-size: medium;
+    }
 }
