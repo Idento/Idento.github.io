@@ -330,7 +330,7 @@ figcaption{
         overflow: hidden;
     }
     .menulow li a{
-        font-size: x-large;
+        font-size: 2rem;
         padding-top: 5%;
         text-decoration: none;
         color: white;
