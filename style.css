@@ -206,7 +206,7 @@ figcaption {
   visibility: hidden;
 }
 mark{
-  background-color: rgb(85, 85, 172);
+  background-color: rgba(71, 76, 122,1);
 }
 
 @media (max-device-width: 1800px) or (max-width: 1800px) {
