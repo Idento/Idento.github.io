@@ -135,24 +135,18 @@ figcaption {
   margin-bottom: 3%;
 }
 .b1 input {
+  color: white;
   border-radius: 10px;
   font-size: larger;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
   border: solid 0px;
-  background-color: #0fa958;
+  background-color: rgba(71, 76, 122,1);
   cursor: pointer;
-  box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 8px 10px 5px -5px rgba(0, 0, 0, 0.75);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 .b1 input:hover {
-  box-shadow: 0px -4px 5px -5px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0px -4px 5px -5px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px -4px 5px -5px rgba(0, 0, 0, 0.75);
-  text-decoration: underline;
-  transition: 0.5s;
+  background-color: rgba(71, 76, 122,0.5);
 }
 #ouverture {
   margin-top: 2%;
@@ -181,10 +175,11 @@ figcaption {
   float: left;
 }
 #recherche p {
-  text-align: left;
+  margin-right: 5%;
+  text-align: justify;
 }
 #recherche .fl {
-  clear: both;
+  clear: right;
   margin-left: 3%;
 }
 #detail {
@@ -206,6 +201,12 @@ figcaption {
 }
 #menu_lowmedia {
   display: none;
+}
+.menulow{
+  visibility: hidden;
+}
+mark{
+  background-color: rgb(85, 85, 172);
 }
 
 @media (max-device-width: 1800px) or (max-width: 1800px) {
@@ -304,12 +305,14 @@ figcaption {
   .menulow {
     list-style: none;
     align-self: flex-start;
+    flex-direction: column;
     position: absolute;
     display: none;
-    margin-top: 5%;
+    margin-top: 8%;
     padding: 2%;
     padding-right: 5%;
     padding-top: 3%;
+    padding-bottom: 3%;
     background-color: #2b2d42;
     text-align: left;
     transition: 0.5s;
@@ -353,11 +356,6 @@ figcaption {
   }
   #menubar:hover {
     cursor: pointer;
-  }
-  .page #menu_lowmedia #menubar:hover ~ ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
   }
   #recherche p {
     align-self: flex-start;
