@@ -91,10 +91,50 @@ nav ul li a {
 }
 .b {
   margin-top: 8%;
+
 }
 .b p {
   margin-left: 15%;
   margin-right: 15%;
+}
+@keyframes Welcome {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.b h1 {
+  animation: Welcome .5s ease-in;
+}
+.b .grid{
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-template-rows: 10% 10%;
+  justify-content: center;
+  animation: Welcome .5s ease-in 1s backwards;
+}
+.b .grid :first-child{
+  grid-column: 1/3;
+}
+.twitter_logo{
+  width: 50px;
+  height: 50px;
+}
+.discord_logo{
+  width: 200px;
+  height: 40px;
+}
+.b h3 {
+  animation: Welcome .5s ease-in .5s backwards;
+}
+@keyframes DownloadEffect {
+  to{
+    box-shadow: 0 0 0 18px rgba(90, 98, 168, 0.01);
+  }
 }
 .menucontent {
   margin: auto;
@@ -141,12 +181,14 @@ figcaption {
   padding: 10px;
   width: 100%;
   border: solid 0px;
+  box-shadow: 0 0 0 0 #000;
   background-color: rgba(71, 76, 122,1);
   cursor: pointer;
   transition: 0.5s;
 }
 .b1 input:hover {
-  background-color: rgba(71, 76, 122,0.5);
+  background-color: rgba(90, 98, 168, 1);
+  animation: DownloadEffect .8s infinite;
 }
 #ouverture {
   margin-top: 2%;
