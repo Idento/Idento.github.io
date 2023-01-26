@@ -411,4 +411,39 @@ mark{
     align-self: flex-start;
     margin-left: 3%;
   }
+  #abouturpc{
+    padding-top: 2%;
+    width: 80%;
+  }
+  .b3 h1{
+    padding-top: 5%;
+  }
+}
+.b3 h1{
+  padding-top: 2%;
+}
+#icone_about{
+  padding-right: 10px;
+}
+.b3 h3{
+  margin-top: 5%;
+}
+#abouturpc{
+  padding-top: 2%;
+}
+.b3 input {
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+  padding: 10px;
+  width: 30%;
+  border: solid 0px;
+  box-shadow: 0 0 0 0 #000;
+  background-color: rgba(71, 76, 122,1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.b3 input:hover {
+  background-color: rgba(90, 98, 168, 1);
+  animation: DownloadEffect .8s infinite;
 }
